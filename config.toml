@@ -1,0 +1,273 @@
+# Page settings
+
+baseURL = "http://hananiel.github.io/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Hananiel Sarella"
+        tagline = "Senior Software Engineer"
+        #avatar = "avatar.png"
+
+
+    [params.contact]
+        enable = true
+        location = "Mason, OH"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "513 600 6440"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "hananiel@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "hananiel.github.io"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Cloud, Azure/AWS/GCP"
+        [[params.skills.list.items]]
+        details = "C#, Java, Javascript"
+        [[params.skills.list.items]]
+        details = "Node.js/ASP.NET"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "RabbitMQ/Kafka"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "People & Team Leadership"
+        [[params.skills.list.items]]
+        details = "Agile Methodology"
+        [[params.skills.list.items]]
+        details = "Technical Strategy"
+        [[params.skills.list.items]]
+        details = "Engineering Excellence"
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MS in Computer Science"
+        university = "University of Cincinnati"
+        dates = "2000 - 2003"
+        [[params.education.list]]
+        degree = "BE in Comp. Sci & Engineering"
+        university = "Anna University (CEG)"
+        dates = "1996 - 2000"
+
+
+
+
+    [params.awards]
+        enable = true
+        [[params.awards.list]]
+        name = "Certified Scrum Master"
+        body = "Agile Alliance"
+       
+        [[params.awards.list]]
+        name = "MCSD"
+        body = "Microsoft"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Senior Software Engineer bringing extensive expertise in designing, developing, and contributing to OSS projects. Proven track record as a key contributor to major initiatives, specializing in fostering collaboration with diverse teams to enhance and drive adoption of technology solutions. Adept at leveraging in-depth knowledge of software development methodologies and best practices to deliver high-quality code. Seasoned developer evangelist driving community engagement and adoption. Eager to contribute technical expertise and forward-thinking solutions to a dynamic engineering role that embraces the modern technology stack and open-source ecosystem."
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Staff Software Engineer"
+        dates = "2018 - 2023"
+        company = "VMWare"
+        details = "Contextualized the Spring Boot ecosystem for .NET developers with pioneering platforms,  innovative libraries and  dynamic community engagement."
+        [[params.experience.list.items]]
+        details = "Integrated Steeltoe components to the flagship DevEx solution streamlining Kubernetes orchestration for enabling .NET developers to push containerized workloads on AKS, GKE, and EKS."
+        [[params.experience.list.items]]
+        details = "Launched start.steeltoe.io analogous to its Spring counterpart  start.spring.io providing a streamlined and standardized platform to quickly bootstrap projects with dependencies, ensuring consistency and adherence to community best practices."
+        [[params.experience.list.items]]
+        details = "Created Steeltoe stream a messaging framework that is wire compatible with Spring Cloud stream and allows it to co-orchestrated in Spring Cloud Data Flow."
+        [[params.experience.list.items]]
+        details = "Adopted Opentelemetry.net for Steeltoe framework replacing OpenCensus for tracing and metrics. Created new exporters for Wavefront."
+        [[params.experience.list.items]]
+        details = "Fostered community engagement through speaking engagements at prominent conferences, including SpringOne and On DotNET, Community meetings and Stack overflow and github answers."
+
+
+        [[params.experience.list]]
+        title = "Software Architect/Developer"
+        dates = "2017 - 2018"
+        company = "Kroger Technology -  Digital"
+        details = "Worked on the service platform effort to streamline and support sprawling technology choices. This effort was aimed at building a services platform which could then be leveraged for business innovation by app dev teams."
+        [[params.experience.list.items]]
+        details = "Developed an Architecture as a service product from the enterprise architecture team."
+        
+        [[params.experience.list.items]]
+        details = "Developed and supported core shared libraries for microservice teams to report standard metrics, handle authorization and authentication, centralized logging, tracing, Cassandra drivers and adopt non-blocking reactive patterns using reactor project."
+        
+        [[params.experience.list.items]]
+        details = "Customized spring initializr to create a customized version to distribute enterprise architecture libraries and enable automatic provisioning of dev/sec/ops blueprints."
+        
+        [[params.experience.list.items]]
+        details = "Worked with the Service Architecture Navigators Guild to gather consensus and move teams forward."
+
+
+        [[params.experience.list]]
+        title = "Technical Lead"
+        dates = "2014 - 2016"
+        company = "Kroger Technology - Digital"
+        details = "Technical Lead for Usage Metrics group whose mission was to build support tooling for independent vertical teams in tagging activity for measurement and business insights."
+        [[params.experience.list.items]]
+        details = "Scaled the ingestion of client-side telemetry data for all of kroger.com and its banners"
+        [[params.experience.list.items]]
+        details = "Lead the development of client side framework to support react web ui and support publishing app telemetry to multiple ingestion endpoints."
+        [[params.experience.list.items]]
+        details = "Maintained development practices and standards for the team and performed code reviews and performance testing."
+        [[params.experience.list.items]]
+        details = "Successfully coached the development team to adopt modern practices and resolved technical bottlenecks."
+
+
+        [[params.experience.list]]
+        title = "Technology Manager"
+        dates = "2013 - 2014"
+        company = "Epsilon"
+        details = "Led a 6-member distributed team in the development and implementation effort for loyalty programs for some major fortune 500 clients."
+        [[params.experience.list.items]]
+        details = "Responsible for architecture, design, development, integration and support for several clients."
+        [[params.experience.list.items]]
+        details = "Delivered the product roadmap working alongside a cross-functional team of project managers and infrastructure teams."
+
+
+        [[params.experience.list]]
+        title = "Technology Manager"
+        dates = "2014 - 2016"
+        company = "UniRush/Greendot Corp."
+        details = "Led an 8-member team to meet development, support engineering and reporting needs for the company."
+        
+        [[params.experience.list.items]]
+        details = "Progressively grew in my career from Development lead to Manager of application support in a startup environment."
+        [[params.experience.list.items]]
+        details = "Provided technical leadership for web development, backend services and telephony automation solutions (IVR)."
+
+        [[params.experience.list.items]]
+        details = "Created innovative telphony solutions that saved hundreds of thousands of dollars for the company."
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "MeasureCamp Cincinnati"
+        meta = "MeasureCamp"
+        tagline = "Organized the first ever MeasureCamp in US in Cincinnati, OH. This effort is a partnership between leading technology and digital analytics firms to provide world class but free conference experience."
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Notable Talks"
+        [[params.information.list.items]]
+        details = "2021 · You can be Cloud Native too. Spring One."
+        [[params.information.list.items]]
+        details = "2021: Steeltoe Messaging and Steeltoe Stream: Demonstrating .NET/Java apps in Spring Cloud Data Flow."
+        [[params.information.list.items]]
+        details = "2021 · You can be Cloud Native too. Spring One."
+        [[params.information.list.items]]
+        details = "2020 · Observability Enhancements in Steeltoe."
+
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/hananiel"
+        title = "hananiel"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/hananielsarella"
+        title = "hananielsarella"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/hananiel"
+        title = "@hananielsarella"
+
+    [params.footer]
+        copyright = ""
